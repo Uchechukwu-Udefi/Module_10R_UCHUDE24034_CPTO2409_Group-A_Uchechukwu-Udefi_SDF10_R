@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'rubik', sans-serif;
 
 }
 
@@ -13,7 +13,7 @@ html, body {
     max-width: 320px;
     margin: 30px auto;
     border-radius: 10px;
-    align-items: center; /assets/cat.png
+    padding: 10px;
 }
 
 img {
@@ -22,21 +22,25 @@ img {
 }
 
 input {
-    height: 30px;
-    width: 200px;
     color: #432000;
     background-color: #DCE1EB;
-    border-radius: 5px;
-    border: transparent;
-    margin: 5px;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+
 }
 
 button {
-    border: transparent;
-    width: 200px;
-    height: 30px;
-    margin: 5px;
-    color: #FDFDFD;
-    background-color: #AC485A;
-    border-radius: 5px;
+    background-color: #432000;
+    color: #DCE1EB;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
