@@ -8,8 +8,17 @@ html, body {
 .container {
     background-color: #EEF0F4;
     border: 3px solid #432000;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
     border-radius: 10px;
     align-items: center; /assets/cat.png
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
 }
 
 input {
