@@ -1,4 +1,33 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    background-color: #EEF0F4;
+    border: 3px solid #432000;
+    border-radius: 10px;
+    align-items: center; /assets/cat.png
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    color: #432000;
+    background-color: #DCE1EB;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px;
+}
+
+button {
+    border: transparent;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border-radius: 5px;
 }
