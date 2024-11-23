@@ -51,3 +51,15 @@ button {
     background-color: #EEF0F4;
     margin: 5px;
 }
+
+ul {
+    margin: 50px;
+    list-style: none;
+    padding: 20px;
+    display: grid;
+    border: 2px solid #432000;
+}
+
+li {
+    margin: 5px;
+}
