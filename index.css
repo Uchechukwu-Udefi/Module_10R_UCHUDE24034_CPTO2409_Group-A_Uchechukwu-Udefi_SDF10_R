@@ -34,7 +34,7 @@ input {
 
 }
 
-button {
+#add-button {
     background-color: #432000;
     color: #DCE1EB;
     border-radius: 8px;
@@ -45,6 +45,8 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+/*
+
 .cart-items {
     display: grid;
     border: 2px solid #432000;
@@ -53,13 +55,30 @@ button {
 }
 
 ul {
-    margin: 50px;
+    margin: 10px;
     list-style: none;
     padding: 20px;
     display: grid;
     border: 2px solid #432000;
+    cursor: pointer;
 }
 
-li {
-    margin: 5px;
+listItems {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 2px solid #432000;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 6px;
+    
 }
+
+#list {
+    margin: 10px;
+}
+
+*/

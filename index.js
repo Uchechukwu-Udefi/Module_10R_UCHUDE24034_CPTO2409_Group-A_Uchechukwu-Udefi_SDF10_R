@@ -40,7 +40,6 @@ addButtonEl.addEventListener("click", function() {
 const addButtonEl = document.getElementById("add-button")
 const shoppingCart = []
 const inputFieldEl = document.getElementById("input-field")
-const ulEl = document.getElementById("ul-el")
 
 addButtonEl.addEventListener("click", function() {
     shoppingCart.push(inputFieldEl.value)
@@ -53,13 +52,10 @@ function renderList() {
     for (let i = 0; i < shoppingCart.length; i++) {
      // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
        listItems += `
-       <li>
-            <a target='_blank' 
-                href='${shoppingCart[i]}'
-                > ${shoppingCart[i]}
-            </a>
-        </li>
+       
+             ${shoppingCart[i]}
+        
     `  
     }
-    ulEl.innerHTML = listItems
+    document.getElementById("list").innerHTML = listItems;
 }
