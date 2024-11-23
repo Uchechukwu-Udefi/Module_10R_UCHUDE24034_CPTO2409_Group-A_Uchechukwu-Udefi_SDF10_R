@@ -44,3 +44,10 @@ button {
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
+
+.cart-items {
+    display: grid;
+    border: 2px solid #432000;
+    background-color: #EEF0F4;
+    margin: 5px;
+}
