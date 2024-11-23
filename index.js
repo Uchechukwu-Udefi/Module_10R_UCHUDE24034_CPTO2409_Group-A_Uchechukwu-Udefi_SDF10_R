@@ -42,27 +42,21 @@ const shoppingCart = []
 const inputFieldEl = document.getElementById("input-field")
 const ulEl = document.getElementById("ul-el")
 
-/* const inputBtn = document.getElementById("input-btn")
-let myLeads = []
-const inputEl = document.getElementById("input-el")
-const ulEl = document.getElementById("ul-el")
-*/
-
-inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value)
-    inputEl.value = ""
-    renderLeads()
+addButtonEl.addEventListener("click", function() {
+    shoppingCart.push(inputFieldEl.value)
+    inputFieldEl.value = ""
+    renderList()
 })
 
-function renderLeads() {
+function renderList() {
     let listItems = ""
-    for (let i = 0; i < myLeads.length; i++) {
+    for (let i = 0; i < shoppingCart.length; i++) {
      // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
        listItems += `
        <li>
             <a target='_blank' 
-                href='${myLeads[i]}'
-                > ${myLeads[i]}
+                href='${shoppingCart[i]}'
+                > ${shoppingCart[i]}
             </a>
         </li>
     `  
