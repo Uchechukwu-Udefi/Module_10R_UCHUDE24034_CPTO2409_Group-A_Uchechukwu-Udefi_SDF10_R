@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 50px;
     font-family: 'rubik', sans-serif;
+    text-align: center;
 
 }
 
@@ -34,7 +35,8 @@ input {
 
 }
 
-#add-button {
+/*Style add Button*/
+.addBtn {
     background-color: #432000;
     color: #DCE1EB;
     border-radius: 8px;
@@ -43,45 +45,9 @@ input {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-}
-
-/*
-
-.cart-items {
-    display: grid;
-    border: 2px solid #432000;
-    background-color: #EEF0F4;
-    margin: 5px;
-}
-
-ul {
-    margin: 10px;
-    list-style: none;
-    padding: 20px;
-    display: grid;
-    border: 2px solid #432000;
     cursor: pointer;
+    transition: 0.3s;
 }
-
-listItems {
-    color: #432000;
-    background-color: #DCE1EB;
-    border: 2px solid #432000;
-    border-radius: 8px;
-    border: 0;
-    padding: 15px;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    margin: 6px;
-    
-}
-
-#list {
-    margin: 10px;
-}
-
-*/
 
 /* Include the padding and border in an element's total width and height */
 * {
@@ -96,9 +62,10 @@ listItems {
   
   /* Style the list items */
   ul li {
+    list-style: none;
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 12px 8px 12px 8px;
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
@@ -143,6 +110,7 @@ listItems {
   
   /* Style the close button */
   .close {
+    border-radius: 5px;
     position: absolute;
     right: 0;
     top: 0;
@@ -168,7 +136,9 @@ listItems {
     clear: both;
   }
   
+  
   /* Style the input */
+  /*
   input {
     margin: 0;
     border: none;
@@ -178,9 +148,9 @@ listItems {
     float: left;
     font-size: 16px;
   }
-  
+  */
   /* Style the "Add" button */
-  .addBtn {
+ /* .addBtn {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
@@ -191,7 +161,7 @@ listItems {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0;
-  }
+  } */
   
   .addBtn:hover {
     background-color: #bbb;
