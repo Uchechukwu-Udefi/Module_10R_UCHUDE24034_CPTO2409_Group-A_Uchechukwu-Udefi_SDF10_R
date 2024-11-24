@@ -1,13 +1,17 @@
+
 html, body {
     margin: 0;
     padding: 50px;
     font-family: 'rubik', sans-serif;
     text-align: center;
+    background-color: #000000;
+
 }
 
 .container {
     background-color: #faebdb;
     border: 3px solid #432000;
+    color: #432000;
     display: flex;
     flex-direction: column;
     max-width: 320px;
@@ -49,6 +53,22 @@ input {
     
 }
 
+.addBtn:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+
 /* Include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
@@ -66,8 +86,8 @@ input {
     border-radius: 3px;
     width: fit-content;
     margin-top: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
     list-style: none;
     cursor: pointer;
     position: relative;
@@ -130,9 +150,6 @@ input {
     clear: both;
   }
   
-  .addBtn:hover {
-    background-color: #780000;
-    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
-  }
-
+  
+  
   
