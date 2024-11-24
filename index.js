@@ -33,12 +33,14 @@ for (i = 0; i < close.length; i++) {
 }
 
 // Add a "checked" symbol when clicking on a list item
+/*
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
   }
 }, false);
+*/
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -47,7 +49,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("Write item to buy!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
