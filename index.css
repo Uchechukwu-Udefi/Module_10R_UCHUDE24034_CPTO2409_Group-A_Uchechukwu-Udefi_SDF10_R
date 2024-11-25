@@ -4,6 +4,8 @@ html, body {
     padding: 50px;
     font-family: 'rubik', sans-serif;
     text-align: center;
+    background-color: #000000;
+
 }
 
 .container {
